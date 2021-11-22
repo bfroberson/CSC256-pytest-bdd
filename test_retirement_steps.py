@@ -3,7 +3,7 @@ from pytest_bdd import scenario, parsers, given, when, then
 from retirement1 import Retirement
 
 
-@scenario('../features/retirement.feature', 'Search for retirement age')
+@scenario('retirement.feature', 'Search for retirement age')
 def test_retirement_app():
     pass
 
